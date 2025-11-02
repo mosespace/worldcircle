@@ -8,21 +8,10 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
       "icon": {
-        "dark": {
-          "image": "./assets/icons/ios-dark.png",
-          "backgroundColor": "#011627"
-        },
-        "light": {
-          "image": "./assets/icons/ios-light.png",
-          "backgroundColor": "#FDFFFC"
-        },
+        "dark": "./assets/icons/ios-dark.png",
+        "light": "./assets/icons/ios-light.png",
         "tinted": "./assets/icons/ios-tinted.png"
-      },
-      "bundleIdentifier": "com.mosespace2.worldcircle",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -52,7 +41,9 @@
             "backgroundColor": "#ffffff"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
